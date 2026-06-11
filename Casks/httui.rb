@@ -1,11 +1,11 @@
 cask "httui" do
   arch arm: "aarch64", intel: "x64"
 
-  version "0.4.4"
-  sha256 arm:   "583693a834167d7462f2f17cd5cd9417ee1af6b7133d2b1180f9231b55b3c50e",
-         intel: "894ac0ef2f472252ef81e8773c453db88344e7093213cfbd6a4e0bf33807427c"
+  version "0.4.5"
+  sha256 arm:   "3b1c6db4a9889d03c592f7bda8dfb56896b2da011ec84f55a5693b7dc208399a",
+         intel: "dd0313d2313e5128f0bb0ecb5041c47feddabd0a8530357b48cd7ce9572c98ca"
 
-  url "https://github.com/httuicom/httui/releases/download/v0.4.4/httui_#{version}_#{arch}.dmg"
+  url "https://github.com/httuicom/httui/releases/download/v0.4.5/httui_#{version}_#{arch}.dmg"
   name "httui notes"
   desc "Desktop markdown editor with executable HTTP/DB blocks"
   homepage "https://github.com/httuicom/httui"
